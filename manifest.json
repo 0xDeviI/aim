@@ -1,0 +1,30 @@
+{
+    "name": "All ideas matter",
+    "version": "1.0.0",
+    "description": "An objection to the unilateral behavior of Github",
+    "manifest_version": 3,
+    "author": "Armin Asefi",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Impartial Github"
+    },
+    "permissions": ["tabs", "scripting", "activeTab"],
+    "host_permissions": [
+        "http://*/",
+        "https://*/"
+    ],
+    "background": {
+        "service_worker": "assets/js/background.js"
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["assets/js/freedom-of-ideas.js"]
+    }],
+    "icons": {
+        "16": "assets/images/icons8-bird-16.png",
+        "48": "assets/images/icons8-bird-48.png",
+        "100": "assets/images/icons8-bird-100.png"
+    }
+}

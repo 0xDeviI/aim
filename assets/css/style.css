@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans ExtraBold';
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+}
+
+body {
+    width: 500px;
+    background-color: #f0f0f0;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-family: "Open Sans ExtraBold", sans-serif;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: .8rem;
+    text-align: justify;
+}
+
+p.quote {
+    font-size: 1rem;
+    font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.dark-line {
+    width: 7px;
+    height: auto;
+    background-color: #3fa832;
+    border-radius: 5px 0 0 5px;
+}
+
+div.quote {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px #000000;
+    border-radius: 5px;
+    display: flex;
+}
+
+a.button {
+    background-color: #3fa832;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: .8rem;
+    font-family: "Open Sans ExtraBold", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+a.button:hover {
+    background-color: #338a27;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+div.horizontal-align {
+    display: flex;
+}
+
+a.support {
+    background-color: #5532a8;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: .8rem;
+    font-family: "Open Sans ExtraBold", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+a.support:hover {
+    background-color: #3d1e86;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
